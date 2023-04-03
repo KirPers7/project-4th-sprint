@@ -10,7 +10,7 @@ public class RentConditionsPage {
     //Поле-календарь "Когда привезти самокат"
     public static final By SCOOTER_DELIVERY_DATE = By.xpath(".//input[@placeholder='* Когда привезти самокат']");
     //Выбор текущей даты из календаря
-    public static final By SELECT_SCOOTER_DELIVERY_DATE = By.xpath(".//div[@class='react-datepicker__day react-datepicker__day--001 react-datepicker__day--keyboard-selected react-datepicker__day--today react-datepicker__day--weekend']");
+    public static final By SELECT_SCOOTER_DELIVERY_DATE = By.cssSelector("div[class*='react-datepicker__day--today']");
     //Поле-селектор "Срок аренды"
     public static final By SELECT_RENTAL_PERIOD = By.xpath(".//div[text()='* Срок аренды']");
     //Комбобокс "Цвет самоката"
